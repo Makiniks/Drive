@@ -1,0 +1,65 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    color: #fff;
+
+}
+
+body {
+
+    background-color: #111;
+
+}
+
+.DriveContent {
+
+    position: absolute;
+    margin: 15px;
+    padding: 20px;
+    background-color: #222;
+
+}
+
+.MainBar {
+
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #333;
+    height: 670px;
+    width: 400px;
+
+}
+
+.ContentBox {
+
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.Common {
+
+    position: relative;
+    display: block;
+    background-color: #333;
+    margin: 0px 0px 5px;
+    width:1044px;
+
+}
+
+.QuikBar {
+
+    height: 200px;
+
+}
+
+.ContentBar {
+
+    height: 465px;
+
+}

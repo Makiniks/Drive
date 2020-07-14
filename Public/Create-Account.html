@@ -1,0 +1,46 @@
+<html>
+
+    <head>
+
+        <title>Create Account</title>
+        <link rel = "stylesheet" href = "Estilo.css">
+
+    </head>
+    <body>
+
+        <div class = "Content Sing">
+
+            <form method="POST">
+
+                <input type="text" id = "Username" placeholder="Username">
+                <input type="email" id = "Email" placeholder="Email">
+                <input type="password" id = "Password" placeholder="Password">
+
+                <input type="submit" value="Create Account" onclick="CreateAccount()">
+
+            </form>
+            <p class = "Tiny">I already have account, <a class = "Link" href = "Sing-In.html">Sing In</a></p>
+
+        </div>
+
+    </body>
+
+    <script>
+
+        const Form = [
+
+            document.getElementById('Username'),
+            document.getElementById('Email'),
+            document.getElementById('Password')
+
+            ]
+
+        function CreateAccount() {
+
+            alert('outch! Dont touch me! Im still configurating.')
+
+        }
+
+    </script>
+
+</html>

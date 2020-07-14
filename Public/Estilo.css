@@ -1,0 +1,104 @@
+/* Inicar todas as tags utilizadas com valor 0 aqui
+
+    *tags {
+
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+*/
+* {
+
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    color: #fff;
+
+}
+
+body {
+
+    background-color: #111;
+
+}
+
+input {
+
+    border: 0px;
+
+}
+
+input[type=Email], input[type=Password], input[type=Text] {
+
+    background-color: #444;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0px;
+    border: unset;
+    border-radius: 3px;
+    font-size: 17px;
+
+}
+
+input[type=Submit] {
+
+    width: 100%;
+
+}
+
+.Content {
+
+    margin: 10px auto;
+    background-color: #222;
+    padding: 30px;
+
+}
+
+.Box {
+
+    background-color: #333;
+    padding: 15px;
+    height: 450px;
+    display: block;
+
+}
+
+.Welcome {
+
+    width: 480px;
+
+}
+
+.Sing {
+
+    width: 480px;
+    margin: 150px auto;
+
+}
+
+.Button, input[type=Submit] {
+
+    background-color: #44f;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+    position: relative;
+    display: block;
+    margin: 30px 0px;
+    font-size: 17px;
+}
+
+.Link {
+
+    text-decoration: initial;
+
+}
+
+.Tiny {
+
+    font-size: 12px;
+
+}
